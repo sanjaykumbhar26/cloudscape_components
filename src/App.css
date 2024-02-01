@@ -1,21 +1,21 @@
 
-.footer {
+/* .footer {
   position: absolute;
   bottom: 0;
-}
+} */
 
-.container {
+/* .container {
   border: none !important;
   padding: 10px;
-}
+} */
 
-footer {
+/* footer {
   position: absolute;
   bottom: 0;
   text-align: center;
   background-color: #f2f2f2;
   width: 100%;
-}
+} */
 
 .header {
   padding-left: 20px;
@@ -24,8 +24,8 @@ footer {
   padding-bottom: 10px;
   color: #fff;
 }
-.header h1 span {
-  display: flex;
+.header h2 span{
+  display: flex !important;
   align-items: center;
   column-gap: 20px;
 }
@@ -34,18 +34,22 @@ footer {
   padding-bottom: 0 !important;
 }
 
-.container {
-  min-height: calc(100vh - 100px);
+.appLayout main{
+   height: calc(100vh - 56px) !important;
+}
+
+/* .container {
+  min-height: calc(100vh - 20px); 
   display: flex;
   justify-content: center;
-}
+} */
 
-.box {
+/* .box {
   margin: 0 auto;
   border-bottom: solid 1px #f2f2f2;
-}
+} */
 
-.buttonDropdown button{
+/* .buttonDropdown button{
   border: none;
   border-color: transparent !important;
-}
+} */
